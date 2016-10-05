@@ -1,6 +1,9 @@
 #!/usr/bin/env python
+#*-*coding: utf-8 *-*
 #Autor: EdwardRamos
 #Date: 10/04/2016 U.S.A
+
+#Faça um Programa que peça dois números e imprima o maior deles. 
 
 valor1 = raw_input("Enter o primeiro valor: ")
 valor2 = raw_input('Enter o segundo valor: ')
