@@ -18,37 +18,37 @@
 #    o valor do aumento;
 #    o novo salário, após o aumento. 
 
-salario = (input("Insira o salario: "))
+salario = (input("Insira o valor do salario: "))
 
 if float(salario) <= 280:
     aumento = (float(salario) * 0.20)
     total = (float(aumento) + float(salario))
-    print("Salario antes do reajuste: %r" % salario)
-    print("Houve aumento de 20% ") 
-    print("Valor aumento: %r" % aumento)
-    print("Valor total: %r" % total)
+    print("(+) Salario antes do reajuste: %r Reais" % salario)
+    print("(+) Houve aumento de 20% porcento") 
+    print("(+) Valor aumento: %r Reais" % aumento)
+    print("(+) Valor total: %r Reais" % total)
 
 if float(salario) > 280 and float(salario) <= 700:
     aumento = (float(salario) * 0.15)
     total = (float(aumento) + float(salario))
-    print("Salario antes do reajuste: %r" % salario)
-    print("Houve aumento de 15% ") 
-    print("Valor aumento: %r" % aumento)
-    print("Valor total: %r" % total)
+    print("(+) Salario antes do reajuste: %r Reais" % salario)
+    print("(+) Houve aumento de 15% porcento ") 
+    print("(+) Valor aumento: %r Reais" % aumento)
+    print("(+) Valor total: %r Reais" % total)
 
 if float(salario) > 700 and float(salario) <= 1500:
     aumento = (float(salario) * 0.10)
     total = (float(aumento) + float(salario))
-    print("Salario antes do reajuste: %r" % salario)
-    print("Houve aumento de 10% ") 
-    print("Valor aumento: %r" % aumento)
-    print("Valor total: %r" % total)
+    print("(+) Salario antes do reajuste: %r Reais" % salario)
+    print("(+) Houve aumento de 10% porcento ") 
+    print("(+) Valor aumento: %r Reais" % aumento)
+    print("(+) Valor total: %r Reais" % total)
 
 if float(salario) >= 1500.00:
     aumento = (float(salario) * 0.05)
     total = (float(aumento) + float(salario))
-    print("Salario antes do reajuste: %r" % salario)
-    print("Houve aumento de 5% ") 
-    print("Valor aumento: %r" % aumento)
-    print("Valor total: %r" % total)
+    print("(+) Salario antes do reajuste: %r Reais" % salario)
+    print("(+) Houve aumento de 5% porcento ") 
+    print("(+) Valor aumento: %r Reais" % aumento)
+    print("(+) Valor total: %r Reais" % total)
 
